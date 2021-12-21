@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- boostrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <!-- css -->
+     <link rel="stylesheet" href="/styles/styles.css">    
+    <title>Registro|EPS PEPININI</title>
+</head>
+<body>
+    <!-- titulo -->
+    <h1 class="card-title text-center" id="sura">EPS PEPININI</h1>
+
+    <!-- registro -->
+    <div class="card mt-5">
+        <div class="card-body">
+            <form id="formulario">
+                <h1 class="card-title text-center">Registro</h1>
+                <hr>
+                <div class="form-group row">
+
+                    <label class="col-sm-4 col-lg-2 col-form-label">Nombre</label>
+                    <div class="mb-4 mb-lg-0">
+                        <input type="text" id="registro_nombre" name="registro_nombre" class="form-control" placeholder="Ingresa tu nombre" required>
+                </div>
+
+                    <label class="col-sm-4 col-lg-2 col-form-label">Correo</label>
+                    <div class="mb-4 mb-lg-0">
+                        <input type="email" id="registro_email" name="registro_email" class="form-control" placeholder="Ingresa tu correo eléctronico" required>
+                    </div>
+
+                    <label class="col-sm-4 col-lg-2 col-form-label">Contraseña</label>
+                    <div class="mb-4 mb-lg-0">
+                        <input type="password" id="registro_password" name="registro_password" class="form-control" placeholder="Ingresa tu contraseña" required>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary mt-2" id="btn_guardar">Guardar</button>
+            </form>            
+        </div>
+    </div>
+
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="/script/registro.js"></script>
+</body>
+</html>
